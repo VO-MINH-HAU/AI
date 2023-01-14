@@ -10,5 +10,5 @@ with sr.Microphone() as source:
         text = r.recognize_google(audio_data, language="vi")
     except:
         text = "Xin lỗi bạn hãy nói lại !"
-
+    #git status
     print(text)
